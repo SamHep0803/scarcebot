@@ -6,4 +6,4 @@ client.on('ready', () => {
   client.user.setGame("making videos.");
 });
 
-client.login('MzU4NTM4Mjg3Njc5Mjc1MDEw.DONnmg.ZPuMj0Kx5VR3v3bVpz0ouTlLVB8');
+client.login('Mzc4MTYwMjU2NTM2MDE4OTQ0.DOXcvA.SR2K66NI9pKNknG9xuDjzkTM5yI');
