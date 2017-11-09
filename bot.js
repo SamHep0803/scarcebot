@@ -6,7 +6,7 @@ client.on('ready', () => {
   client.user.setGame("making videos.");
 });
 
-client.on('ready', () => {
+client.on('message', message => {
   if (message.content === 's.makeavideo') {
     message.channel.send('Sorry, there is no news :(');
   };
