@@ -8,7 +8,13 @@ client.on('ready', () => {
 
 client.on('ready', () => {
   if (message.content === 's.makeavideo') {
-    message.channel.send('Hey whatsup guys, scarce here.');
+    message.channel.send('Sorry, there is no news :(');
+  };
+});
+
+client.on('message', message => {
+  if (message.content === 's.hey guys') {
+    message.channel.send('Hey Whats Up Guys its SCARCE here!!');
   };
 });
 
